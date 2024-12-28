@@ -12,6 +12,7 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
+      textAlign: TextAlign.center,
       label,
       style: AppStyle(color: Colors.black, weight: FontWeight.bold, size: size),
     );

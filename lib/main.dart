@@ -1,8 +1,5 @@
 import 'package:fitnest_x/config/theme/app_theme.dart';
-import 'package:fitnest_x/features/auth/presentation/pages/login_screen.dart';
-import 'package:fitnest_x/features/auth/presentation/pages/register_screen.dart';
-import 'package:fitnest_x/features/on_boarding/pages/on_boarding_page.dart';
-import 'package:fitnest_x/features/on_boarding/widgets/second_screen.dart';
+import 'package:fitnest_x/features/auth/presentation/pages/register/complete_profile.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -14,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: AppTheme.lightTheme,
       debugShowCheckedModeBanner: false,
-      home: RegisterScreen(),
+      home: CompleteProfile(),
     );
   }
 }
