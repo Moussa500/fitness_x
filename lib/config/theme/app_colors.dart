@@ -19,4 +19,8 @@ class AppColors {
   static final cardShadow = Color(0x1D1617).withOpacity(0.7);
   static final blueShadow = Color(0xff95ADFE).withOpacity(0.3);
   static final purpleShadow = Color(0xffC58BF2).withOpacity(0.3);
+  static final borderColor = Color(0xffF7F8F8);
+  static final success = Color(0xff42D742);
+  static final warning = Color(0xffFFD600);
+  static final danger = Color(0xffFF0000);
 }

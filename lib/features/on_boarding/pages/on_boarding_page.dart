@@ -11,7 +11,6 @@ class OnBoardingPage extends StatefulWidget {
   @override
   State<OnBoardingPage> createState() => _OnBoardingPageState();
 }
-
 class _OnBoardingPageState extends State<OnBoardingPage> {
   final List<Widget> screens = [SecondScreen(), ThirdScreen(),FourthScreen(),FifthScreen()];
   double progressFraction = 0.25;
@@ -27,7 +26,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       }
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -74,7 +72,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
     );
   }
 }
-
 class Progress extends CustomPainter {
   final double fraction;
   Progress(this.fraction);
@@ -95,7 +92,6 @@ class Progress extends CustomPainter {
       paint,
     );
   }
-
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => true;
 }
